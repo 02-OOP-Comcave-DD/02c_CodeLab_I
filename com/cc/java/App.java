@@ -9,6 +9,10 @@ public class App {
     Konto konto2 = new Konto();
     Konto konto3 = new Konto();
 
+    // Ausgabe der einzelnen Konten \\
+    System.out.println("Kontostand für Konto 1: " + konto1.getKontostand());
+    System.out.println("Kontostand für Konto 2: " + konto2.getKontostand());
+    System.out.println("Kontostand für Konto 3: " + konto3.getKontostand());
 
 
 
@@ -17,13 +21,6 @@ public class App {
 
 
 
-
-
-    }
-
-
-    private static void output(String outputStr) {
-        System.out.println(outputStr);
     } 
 
 }
