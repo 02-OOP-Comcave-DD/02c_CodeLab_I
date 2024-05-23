@@ -9,6 +9,7 @@ public class App {
     Konto konto2 = new Konto();
     Konto konto3 = new Konto();
 
+
     // Ausgabe der einzelnen Konten \\
     System.out.println("Kontostand für Konto 1: " + konto1.getKontostand());
     System.out.println("Kontostand für Konto 2: " + konto2.getKontostand());
@@ -25,7 +26,6 @@ System.out.println("---------------------------------------------------");
     // Ausgabe der einzelnen Konten nach Vervielfältigung \\
     System.out.println("Kontostand für Konto 1, nach verdoppelung: " + konto1.getKontostand());
     System.out.println("Kontostand für Konto 2, nach verdreifachung: " + konto2.getKontostand());
-    System.out.println("Kontostand für Konto 3, nach verzehnfachung: " +konto3.getKontostand());
+    System.out.println("Kontostand für Konto 3, nach verzehnfachung: " + konto3.getKontostand());
     } 
-
 }
