@@ -21,12 +21,8 @@ public class Konto {
         kontostand *= 10;
     }
 
-
-
-
 public int getKontostand() {
     return kontostand;
-}
-
+    }
 
 }
